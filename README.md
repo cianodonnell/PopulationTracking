@@ -7,6 +7,10 @@ http://biorxiv.org/content/early/2016/07/19/064717
 No setup required. The following function files are included:
 
 	fitPopTrack : fit the parameters of the Population Tracking model to binary neural population data.
+	
+	get_jsdiv : estimate the Jensen-Shannon divergence between two fitted distributions given the estimated population tracking model parameters.
+	
+	get_kldiv : estimate the Kullback-Leibler divergence between two fitted distributions given the estimated population tracking model parameters.
 
 	samplePopTrack: generate samples from the fitted model, given the parameters.
 
