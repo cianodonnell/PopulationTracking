@@ -17,5 +17,7 @@ No setup required. The following function files are included:
 	compute_ak: calculate the set of normalization constants, needed for exact pattern probabilities.
 
 	compute_px: calculate the predicted probability of a specific neural activity pattern, given the model parameters.
+	
+	stir_binom: computes binomial coefficient using Stirling's appoximation (useful for large n, k).
 
 See the help functions of each file for more details.
